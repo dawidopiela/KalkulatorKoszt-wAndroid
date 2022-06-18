@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout1"
+    android:name="MainActivityCalculation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.9"
+    android:background="@drawable/pictureopacity"
+
+
+    android:translationZ="2dp"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="102dp"
+        android:background="@color/purple_200"
+        android:text="@string/Count" />
+
+    <EditText
+        android:id="@+id/input_kilomiters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:hint="@string/Kilometers"
+        android:inputType="numberDecimal"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/input_usage"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_kilomiters"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:accessibilityLiveRegion="none"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/Fuel_usage"
+        android:inputType="numberDecimal"
+        android:shadowColor="@color/black"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/input_people"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_usage"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="130dp"
+        android:ems="10"
+        android:hint="@string/People"
+        android:inputType="number"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/input_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_people"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="@string/Cost_fuel"
+        android:inputType="numberDecimal"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="26dp"
+        android:background="@color/purple_200"
+        android:text="@string/button_reset" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KalkulatorKosztówPrzejazdu</string>
+    <string name="Kilometers">Distance in kilometers</string>
+    <string name="Fuel_usage">Fuel usage on 100km</string>
+    <string name="People">How many people</string>
+    <string name="Cost_fuel">How much cost olitre</string>
+    <string name="Count">Count</string>
+    <string name="cost_fuel">Cost of fuel</string>
+    <string name="costPerson">"Cost of fuel "</string>
+    <string name="costWay">Cost by way</string>
+    <string name="Error_fields">Empty fields</string>
+    <string name="button_reset">Button reset fields</string>
+</resources>
